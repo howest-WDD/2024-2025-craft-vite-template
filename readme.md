@@ -12,4 +12,4 @@ Dit is een template voor een Craft CMS project met Vite. Het is bedoeld om snel 
 7. Start het project op via `ddev launch` of `ddev restart`
 8. Schrijf je **javascript** en **scss** in de `/src/*` folder
     1. Importeer de scss in het javascript bestand dat je laadt in de template
-9. In de head van de template laadt je het javascript bestand uit de source folder `{{ craft.vite.script('src/js/app.js', false) }}`
+9. In de head van de template laad je het javascript bestand uit de source folder `{{ craft.vite.script('src/js/app.js', false) }}`
